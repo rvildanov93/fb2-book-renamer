@@ -2,13 +2,14 @@
 import os, zipfile, xml.etree.ElementTree as ET
 from langdetect import detect
 sign = ':' # for checking if there is a colon (":") in the <book-title> tag text
-# insert your directory path in the "directory" variable
+
+# insert your directory in the "directory" variable
 directory = 'C:/Users/rriza/Desktop/1/'
 reference = '{http://www.gribuser.ru/xml/fictionbook/2.0}'
 file_extension = ".fb2"
 zip_extension = ".zip"
 
-# checks for the .zip files in the directory and unzip it to the same directory with deleting the original zip file
+# checks for the ".zip" files in the directory and unpacks it to the same directory with deleting the original ".zip" file
 os.chdir(directory) # change directory from working dir to dir with files
 for item in os.listdir(directory): # loop through items in dir
     if item.endswith(zip_extension): # check for ".zip" extension
@@ -19,10 +20,10 @@ for item in os.listdir(directory): # loop through items in dir
         os.remove(full_path) # delete zipped file
 print("\n")
 
-# fb2-book title finder
-# checks for the .fb2 files in the directory and finds its <book-title> tag text and renames the file with this text
+# fb2-book-title finder
+# checks for the ".fb2" files in the directory and finds its <book-title> tag text and renames the file with this text
 for file in os.listdir(directory):
-    if file.endswith(file_extension): # checks for .fb2 files in the directory
+    if file.endswith(file_extension): # checks for ".fb2" files in the directory
         #print("initial file name: " + file)
         root = ET.parse(directory + file).getroot()
 # checks the third hierarchy layer of xml structure to find the <book-title> tag text
@@ -41,7 +42,7 @@ for file in os.listdir(directory):
                         dst = directory + dst
                         os.rename(src, dst) # rename file according to its <book-title> tag text
     else:
-        print("There are no " + file_extension + " files in folder") # if there are no .fb2 files in the directory prints out this message
+        print("There are no " + file_extension + " files in folder") # if there are no ".fb2" files in the directory prints out this message
 for file in os.listdir(directory):
     if file.endswith(file_extension):
         print("renamed file: " + file) # prints out all renamed files

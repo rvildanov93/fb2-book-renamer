@@ -21,7 +21,7 @@ for item in os.listdir(directory): # loop through items in dir
 print("\n")
 
 # fb2-book title finder
-# checks for the .fb2 files in the directory and fins its <book-title> tag text and renames the file with this text
+# checks for the .fb2 files in the directory and finds its <book-title> tag text and renames the file with this text
 for file in os.listdir(directory):
     if file.endswith(file_extension): # checks for .fb2 files in the directory
         #print("initial file name: " + file)

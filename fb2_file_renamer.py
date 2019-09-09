@@ -1,4 +1,3 @@
-# book title finder
 # import necessary modules first
 import os, zipfile, xml.etree.ElementTree as ET
 from langdetect import detect

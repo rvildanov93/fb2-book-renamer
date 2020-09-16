@@ -4,7 +4,7 @@ from langdetect import detect
 sign = ':' # for checking if there is a colon (":") in the <book-title> tag text
 
 # insert your directory in the "directory" variable
-directory = 'C:/Users/rriza/Desktop/1/'
+directory = 'C:/Users/RAMIL/Desktop/New folder/'
 reference = '{http://www.gribuser.ru/xml/fictionbook/2.0}'
 file_extension = ".fb2"
 zip_extension = ".zip"

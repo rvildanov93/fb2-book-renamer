@@ -32,7 +32,7 @@ Finally run the script and you will see the list of renamed files in the console
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_results_.png">
 
-You will see only renamed .fb2 files in specified folder. Zip archives has been deleted automatically.
+You will see only renamed `.fb2` files in specified folder. `zip` archives will be deleted automatically.
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/final_result_.png">
 

@@ -16,7 +16,7 @@ First you have to copy directory path of your zipped books folder to paste it in
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/zipped_folder_.png">
 
-Each `.zip` file cantains `.fb2` file inside. We are going to change the name of `.fb2` file written in english according to its `<book-title>` xml tag which written in russian.
+Each `.zip` file contains `.fb2` file inside. We are going to change the name of `.fb2` file written in english according to its `<book-title>` xml tag which written in russian.
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/fb2_example_.png">
 

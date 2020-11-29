@@ -12,7 +12,7 @@ To begin using this script, choose one of the following options to get started:
 Also you have to install [langdetect](https://pypi.org/project/langdetect/) python module via console command `pip install langdetect`.
 
 ## Usage
-First of all you have to copy directory path of your zipped books folder to paste it in the script later. In the example bellow directory path is `C:\Users\RAMIL\Desktop\books`.
+First you have to copy directory path of your zipped books folder to paste it in the script later. In the example bellow directory path is `C:\Users\RAMIL\Desktop\books`.
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/zipped_folder_.png">
 

@@ -9,7 +9,7 @@ Script should work fine with Python v3.7 and later.
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-freelancer/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/LICENSE)
 
 ## Download and Installation
 

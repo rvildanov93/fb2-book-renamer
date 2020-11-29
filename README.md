@@ -2,7 +2,7 @@
 
 This python script unpacks `.zip` files that contains `.fb2` files inside and then renames `.fb2` files according to its `<book-title>` tags. If there are no `.zip` files in the specified directory, skips the unpacking part.
 
-This version of fb2 file renamer can rename russian book-titles only. I will hopefully work on other functionality later.
+This version of script can rename russian book-titles only. I will hopefully work on other functionality later.
 Firstly, script checks for the `.zip` files in the specified directory (`directory` variable) and upacks files to the same directory with deleting the original ones.
 Then it checks for the `.fb2` files in the directory and finds its tag text, renames the file with this text and prints the list of renamed `.fb2` files in the console.
 Script should work fine with Python v3.7 and later.

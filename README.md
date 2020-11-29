@@ -58,4 +58,4 @@ fb2 file renamer was created by and is maintained by **[Ramil Vildanov](https://
 
 ## Copyright and License
 
-Copyright 2019-2020 Ramil Vildanov. Code released under the [MIT]() license.
+Copyright 2019-2020 Ramil Vildanov. Code released under the MIT license.

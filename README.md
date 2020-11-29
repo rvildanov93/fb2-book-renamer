@@ -14,27 +14,27 @@ Also you have to install [langdetect](https://pypi.org/project/langdetect/) pyth
 ## Usage
 First of all you have to copy directory path of your zipped books folder to paste it in the script later. In the example bellow directory path is `C:\Users\RAMIL\Desktop\books`.
 
-<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/zipped_folder.png">
+<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/zipped_folder_.png">
 
 Each `.zip` file cantains `.fb2` file inside. We are going to change the name of `.fb2` file written in english according to its `<book-title>` xml tag which written in russian.
 
-<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/fb2_example.png">
+<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/fb2_example_.png">
 
 If you open `.fb2` file in the text editor (opened with the Sublime Text 3 on the image bellow) you will see xml structured code and `<book-title>` tag is highlighted by red frame. 
 
-<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/book_title_tag.png">
+<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/book_title_tag_.png">
 
 Open `fb2_file_renamer.py` file in your Python interpreter (opened with IDLE on the image bellow) and paste your directory path you copied earlierin the `directory` variable value. Then change backslashes in pasted string to forward slashes so Python can read your path.
 
-<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_description.png">
+<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_description_.png">
 
 Finally run the script and you will see the list of renamed files in the console: If there are no `.fb2` files in the directory script prints out message `There are no .fb2 files in folder`.
 
-<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_results.png">
+<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_results_.png">
 
 You will see only renamed .fb2 files in your folder. Zip archives has been deleted automatically.
 
-<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/final_result.png">
+<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/final_result_.png">
 
 ## Bugs and Issues
 

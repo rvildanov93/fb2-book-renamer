@@ -24,23 +24,17 @@ If you open `.fb2` file in the text editor (opened with the Sublime Text 3 on th
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/book_title_tag.png">
 
-Open `fb2_file_renamer.py` file in your Python interpreter (opened with IDLE on the image bellow) and paste your directory path you copied earlierin the `directory` variable value.
+Open `fb2_file_renamer.py` file in your Python interpreter (opened with IDLE on the image bellow) and paste your directory path you copied earlierin the `directory` variable value. Then change backslashes in pasted string to forward slashes so Python can read your path.
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_description.png">
 
+Finally run the script and you will see the list of renamed files in the console: If there are no `.fb2` files in the directory script prints out message `There are no .fb2 files in folder`.
+
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_results.png">
 
+You will see only renamed .fb2 files in your folder. Zip archives has been deleted automatically.
+
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/final_result.png">
-
-
-
-
-
-
-
-
-
-Clone the source files and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
 
 ## Bugs and Issues
 

@@ -24,7 +24,7 @@ If you open `.fb2` file in the text editor (opened with the Sublime Text 3 on th
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/book_title_tag_.png">
 
-Open `fb2_file_renamer.py` file in your Python interpreter (opened with IDLE on the image bellow) and paste your directory path you copied earlierin the `directory` variable value. Then change backslashes in pasted string to forward slashes so Python can read your path.
+Open `fb2_file_renamer.py` file in your Python interpreter (opened with IDLE on the image bellow) and paste your directory path you copied earlier in the `directory` variable value. Then change backslashes in pasted string to forward slashes so Python can read your file path.
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_description_.png">
 

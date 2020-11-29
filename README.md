@@ -28,7 +28,7 @@ Open `fb2_file_renamer.py` file in your Python interpreter (opened with IDLE on 
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_description_.png">
 
-Finally run the script and you will see the list of renamed files in the console: If there are no `.fb2` files in the directory script prints out message `There are no .fb2 files in folder`.
+Finally run the script and you will see the list of renamed files in the console: If there are no `.fb2` files in the specified directory script prints out message `There are no .fb2 files in folder`.
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_results_.png">
 

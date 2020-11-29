@@ -29,13 +29,31 @@ Each `.zip` file contains `.fb2` file inside. We are going to change the name of
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/fb2_example_.png">
 
-If you open `.fb2` file in the text editor (opened with the Sublime Text 3 on the image bellow) you will see xml structured code. 
+If you open `.fb2` file in the text editor (opened with the Sublime Text 3 on the image bellow) you will see xml structured code.
 
-<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/book_title_tag_.png">
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<FictionBook xmlns="http://www.gribuser.ru/xml/fictionbook/2.0" xmlns:l="http://www.w3.org/1999/xlink">
+<description>
+  <title-info>
+    <genre>adv_animal</genre>
+    <genre>sci_biology</genre>
+    <genre>sci_popular</genre>
+    <genre>science</genre>
+    <author>
+      <first-name>Конрад</first-name>
+      <middle-name>Захариас</middle-name>
+      <last-name>Лоренц</last-name>
+    </author>
+    <book-title>Кольцо царя Соломона</book-title>
+```
 
-Open `fb2_file_renamer.py` file in your Python interpreter (opened with IDLE on the image bellow) and paste your directory path you copied earlier in the `directory` variable value. Then change backslashes in pasted string to forward slashes so Python can read your file path.
+Open `fb2_file_renamer.py` file in your Python interpreter (IDLE or PyCharm for example) and paste your directory path you copied earlier in the `directory` variable value. Then change backslashes in pasted string to forward slashes so Python can read your file path.
 
-<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_description_.png">
+```python
+# insert your directory in the "directory" variable
+directory = 'C:/Users/RAMIL/Desktop/books/'
+```
 
 Finally run the script and you will see the list of renamed files in the console: If there are no `.fb2` files in the specified directory script prints out message `There are no .fb2 files in folder`.
 

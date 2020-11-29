@@ -19,12 +19,12 @@ Clone the source files of the theme and navigate into the theme's root directory
 
 ## Bugs and Issues
 
-Have a bug or an issue with this script? [Open a new issue](https://github.com/rvildanov93/fb2-file-renamer/issues) here on GitHub or write a message on the [ramilvildanov.ru](https://ramilvildanov.ru).
+Have a bug or an issue with this script? [Open a new issue](https://github.com/rvildanov93/fb2-file-renamer/issues) here on GitHub or write me a message on the [ramilvildanov.ru](https://ramilvildanov.ru).
 
 ## About
 Firstly, script checks for the `.zip` files in the specified directory (`directory` variable) and upacks files to the same directory with deleting the original ones.
 Then it checks for the `.fb2` files in the directory and finds its tag text, renames the file with this text and prints the list of renamed `.fb2` files in the console.
-Script should work fine with Python 3.7.
+Script should work fine with Python v3.7 and later.
 
 fb2 file renamer was created by and is maintained by **[Ramil Vildanov](https://ramilvildanov.ru/)**.
 

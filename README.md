@@ -55,7 +55,7 @@ Open `fb2_file_renamer.py` file in your Python interpreter (IDLE or PyCharm for 
 directory = 'C:/Users/RAMIL/Desktop/books/'
 ```
 
-Finally run the script and you will see the list of renamed files in the console: If there are no `.fb2` files in the specified directory script prints out message "There are no `.fb2` files in folder".
+Finally run the script and you will see the list of renamed files in the console. If there are no `.fb2` files in the specified directory script prints out message: "There are no `.fb2` files in folder".
 
 ```sh
 renamed file: Архетипы и коллективное бессознательное.fb2

@@ -53,7 +53,7 @@ If you open `.fb2` file in the text editor you will see `<book-title>` tag insid
     <book-title>Кольцо царя Соломона</book-title>
 ```
 
-Open `fb2_file_renamer.py` file in your Python interpreter (IDLE or PyCharm for example) and paste your directory path you copied earlier in the `directory` variable value. Then change backslashes in pasted string to forward slashes so Python can read your file path.
+Open `fb2_file_renamer.py` file in your Python interpreter ([PyCharm](https://www.jetbrains.com/pycharm/) for example) and paste your directory path you copied earlier in the `directory` variable value. Then change backslashes in pasted string to forward slashes so Python can read your file path.
 
 ```python
 # insert your directory in the "directory" variable

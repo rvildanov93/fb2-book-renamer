@@ -4,7 +4,7 @@ This python script unpacks `.zip` files that contains `.fb2` files inside and th
 
 ## Preview
 
-[![fb2 file renamer](https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/file_renamer_cover_for_gh.jpg)](https://rvildanov93.github.io/fb2-file-renamer/)
+[![fb2 file renamer]](https://rvildanov93.github.io/fb2-file-renamer/)
 
 ## Download and Installation
 

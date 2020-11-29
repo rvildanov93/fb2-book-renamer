@@ -29,7 +29,7 @@ Each `.zip` file contains `.fb2` file inside. We are going to change the name of
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/fb2_example_.png">
 
-If you open `.fb2` file in the text editor you will see xml structured code and `<book-title>` tag inside.
+If you open `.fb2` file in the text editor you will see `<book-title>` tag inside structured xml code.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>

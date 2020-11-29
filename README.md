@@ -1,6 +1,6 @@
 # [fb2 file renamer](https://rvildanov93.github.io/fb2-file-renamer/)
 
-This python script unpacks `.zip` files that contains `.fb2` files inside and then renames `.fb2` files according to its `<book-title>` tags. If there are no `.zip` files in the directory, skips the unpacking part.
+This python script unpacks `.zip` files that contains `.fb2` files inside and then renames `.fb2` files according to its `<book-title>` tags. If there are no `.zip` files in the specified directory, skips the unpacking part.
 
 ## Download and Installation
 
@@ -32,7 +32,7 @@ Finally run the script and you will see the list of renamed files in the console
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_results_.png">
 
-You will see only renamed .fb2 files in your folder. Zip archives has been deleted automatically.
+You will see only renamed .fb2 files in specified folder. Zip archives has been deleted automatically.
 
 <img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/final_result_.png">
 

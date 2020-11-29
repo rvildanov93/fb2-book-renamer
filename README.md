@@ -2,9 +2,6 @@
 
 This python script unpacks `.zip` files that contains `.fb2` files inside and then renames `.fb2` files according to its `<book-title>` tags. If there are no `.zip` files in the directory, skips the unpacking part.
 
-
-[fb2 file renamer](https://rvildanov93.github.io/fb2-file-renamer/)
-
 ## Download and Installation
 
 To begin using this script, choose one of the following options to get started:

@@ -19,7 +19,7 @@ To begin using this script, choose one of the following options to get started:
 
 `git clone https://github.com/rvildanov93/fb2-file-renamer.git`
 
-- [Fork, Clone, or Download on GitHub](https://github.com/rvildanov93/fb2-file-renamer.git)
+- [or Download on GitHub](https://github.com/rvildanov93/fb2-file-renamer.git)
 
 Also you have to install [langdetect](https://pypi.org/project/langdetect/) python module via console command:
 

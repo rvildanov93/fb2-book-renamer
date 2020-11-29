@@ -7,6 +7,10 @@ Firstly, script checks for the `.zip` files in the specified directory (`directo
 Then it checks for the `.fb2` files in the directory and finds its tag text, renames the file with this text and prints the list of renamed `.fb2` files in the console.
 Script should work fine with Python v3.7 and later.
 
+## Status
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-freelancer/master/LICENSE)
+
 ## Download and Installation
 
 To begin using this script, choose one of the following options to get started:
@@ -53,4 +57,5 @@ fb2 file renamer was created by and is maintained by **[Ramil Vildanov](https://
 - <https://github.com/rvildanov93>
 
 ## Copyright and License
-Copyright 2019-2020 by Ramil Vildanov
+
+Copyright 2019-2020 Ramil Vildanov. Code released under the [MIT]() license.

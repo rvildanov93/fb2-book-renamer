@@ -16,6 +16,32 @@ To begin using this script, choose one of the following options to get started:
 Also you have to install [langdetect](https://pypi.org/project/langdetect/) python module via console command `pip install langdetect`.
 
 ## Usage
+First of all you have to copy directory path of your zipped books folder to paste it in the script later. In the example bellow directory path is `C:\Users\RAMIL\Desktop\books`.
+
+<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/zipped_folder.png">
+
+Each `.zip` file cantains `.fb2` file inside. We are going to change the name of `.fb2` file written in english according to its `<book-title>` xml tag which written in russian.
+
+<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/fb2_example.png">
+
+If you open `.fb2` file in the text editor (opened with the Sublime Text 3 on the image bellow) you will see xml structured code and `<book-title>` tag is highlighted by red frame. 
+
+<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/book_title_tag.png">
+
+Open `fb2_file_renamer.py` file in your Python interpreter (opened with IDLE on the image bellow) and paste your directory path you copied earlierin the `directory` variable value.
+
+<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_description.png">
+
+<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_results.png">
+
+<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/final_result.png">
+
+
+
+
+
+
+
 
 
 Clone the source files and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.

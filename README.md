@@ -15,10 +15,15 @@ Script should work fine with Python v3.7 and later.
 
 To begin using this script, choose one of the following options to get started:
 
-- Clone the repo: `git clone https://github.com/rvildanov93/fb2-file-renamer.git`
+- Clone the repo:
+
+`git clone https://github.com/rvildanov93/fb2-file-renamer.git`
+
 - [Fork, Clone, or Download on GitHub](https://github.com/rvildanov93/fb2-file-renamer.git)
 
-Also you have to install [langdetect](https://pypi.org/project/langdetect/) python module via console command `pip install langdetect`.
+Also you have to install [langdetect](https://pypi.org/project/langdetect/) python module via console command:
+
+`pip install langdetect`
 
 ## Usage
 First you have to copy directory path of your zipped books folder to paste it in the script later. In the example bellow directory path is `C:\Users\RAMIL\Desktop\books`.

@@ -57,7 +57,12 @@ directory = 'C:/Users/RAMIL/Desktop/books/'
 
 Finally run the script and you will see the list of renamed files in the console: If there are no `.fb2` files in the specified directory script prints out message "There are no `.fb2` files in folder".
 
-<img src ="https://raw.githubusercontent.com/rvildanov93/fb2-file-renamer/master/img/script_results_.png">
+```sh
+renamed file: Архетипы и коллективное бессознательное.fb2
+renamed file: Кольцо царя Соломона.fb2
+renamed file: Мир как воля и представление.fb2
+renamed file: Потерянный рай.fb2
+```
 
 You will see only renamed `.fb2` files in specified folder. `zip` archives will be deleted automatically.
 

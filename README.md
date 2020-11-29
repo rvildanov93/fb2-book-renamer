@@ -8,12 +8,10 @@ This python script unpacks `.zip` files that contains `.fb2` files inside and th
 
 ## Download and Installation
 
-To begin using this template, choose one of the following options to get started:
+To begin using this script, choose one of the following options to get started:
 
-- [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/freelancer/)
-- Install using npm: `npm i startbootstrap-freelancer`
-- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-freelancer.git`
-- [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-freelancer)
+- Clone the repo: `git clone https://github.com/rvildanov93/fb2-file-renamer.git`
+- [Fork, Clone, or Download on GitHub](https://github.com/rvildanov93/fb2-file-renamer.git)
 
 ## Usage
 
